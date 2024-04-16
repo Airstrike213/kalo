@@ -1,0 +1,10 @@
+<svg id="upload-icn" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <path id="Ellipse_371" data-name="Ellipse 371" d="M28,2A26.007,26.007,0,0,0,17.88,51.958,26.007,26.007,0,0,0,38.12,4.042,25.835,25.835,0,0,0,28,2m0-2A28,28,0,1,1,0,28,28,28,0,0,1,28,0Z" fill="#004a5a"/>
+  <g id="Gruppe_722" data-name="Gruppe 722" transform="translate(0 2)">
+    <g id="Gruppe_721" data-name="Gruppe 721">
+      <path id="Linie_47" data-name="Linie 47" d="M0,18a1,1,0,0,1-1-1V0A1,1,0,0,1,0-1,1,1,0,0,1,1,0V17A1,1,0,0,1,0,18Z" transform="translate(28.5 34) rotate(-180)" fill="#004a5a"/>
+      <path id="Pfad_106" data-name="Pfad 106" d="M7,8a1,1,0,0,1-.707-.293l-7-7a1,1,0,0,1,0-1.414,1,1,0,0,1,1.414,0L7,5.586,13.293-.707a1,1,0,0,1,1.414,0,1,1,0,0,1,0,1.414l-7,7A1,1,0,0,1,7,8Z" transform="translate(35.5 22) rotate(-180)" fill="#004a5a"/>
+    </g>
+    <path id="Pfad_1495" data-name="Pfad 1495" d="M40.547,39.514h-19a1,1,0,0,1,0-2h19a1,1,0,0,1,0,2Z" transform="translate(-2.547 -0.514)" fill="#004a5a"/>
+  </g>
+</svg>
