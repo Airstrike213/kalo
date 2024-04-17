@@ -8,6 +8,7 @@ const pdfFiles = [
     'Kundenbroschüre/Fernablesbare Funkmesstechnik und UVI.pdf',
     'Kundenbroschüre/KALO-Kurzportrait.pdf',
     'Infoblätter Kunden/KvO-GBL_Adressliste.pdf',
+    'Kalo_Powerpoint:Master_final_1.pdf',
     // Add more PDF 
 ];
 
