@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <link rel="stylesheet" href="kalo.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="element-header text-center"id="welcome-screen">
+        <h2></h2>
+        <p>Please select a PDF from the navigation menu to view.</p>
+    </div>
+
+    <nav>
+        <div class="navbar" id="navbar">
+            <!-- Navigation links will be added dynamically here -->
+        </div>
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <div id="pdf-container" style="display: none;">
+        <embed id="pdf-viewer" src="" type="application/pdf" width="100%" height="600px">
+    </div>
+    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-6 justify-content-default"><div class="col">
+        <div class="card card-default h-100">
+            <div class="card-body "><a href="/dienstleistungen/heizkostenabrechnung/" title="Verbrauchsabhängige Heiz&amp;shy;kosten&amp;shy;abrechnung" class="card-item-wrap-link" tabindex="0"><img class="card-image" src="https://www.kalo.de/fileadmin/user_upload/Ilustrationen/PNG_72ppi/petrol-gruen/Heizkosten_abrechnen.png" width="177" height="177" alt=""></a>
+                <div class="card-headline">
+                    <h5 class="card-title"><a href="/dienstleistungen/heizkostenabrechnung/" title="Verbrauchsabhängige Heiz&amp;shy;kosten&amp;shy;abrechnung" class="card-item-wrap-link" tabindex="0"> Verbrauchsabhängige Heiz­kosten­abrechnung </a></h5>
+                </div>
+                <div class="card-text">
+                    <p class="text-large"><br> Wir erstellen Ihnen eine qualitätsgesicherte und rechtskonforme Heizkostenabrechnung.</p>
+                </div>
+            </div>
+            <div class="card-footer"><a href="/dienstleistungen/heizkostenabrechnung/" title="Mehr erfahren" class="btn btn-secondary" tabindex="0"><span class="btn-text"> Mehr erfahren </span></a></div>
+        </div>
+    </div><div class="col">
+        <div class="card card-default h-100">
+            <div class="card-body "><a href="/co2/" title="CO2-Kostenaufteilungs-gesetz&amp;nbsp;" class="card-item-wrap-link" tabindex="0"><img class="card-image" src="https://www.kalo.de/fileadmin/user_upload/Ilustrationen/PNG_72ppi/petrol-gruen/CO2Kostenaufteilungsgesetz.png" width="177" height="177" alt=""></a>
+                <div class="card-headline">
+                    <h5 class="card-title"><a href="/co2/" title="CO2-Kostenaufteilungs-gesetz&amp;nbsp;" class="card-item-wrap-link" tabindex="0"> CO<sub>2</sub>-Kostenaufteilungs-gesetz&nbsp; </a></h5>
+                </div>
+                <div class="card-text">
+                    <p class="text-large">Alles was Sie zu den Vorgaben, Klassifizierungen und Berechnungen wissen müssen - inkl. CO<sub>2</sub>-Kosten-Rechner.</p>
+                </div>
+            </div>
+            <div class="card-footer"><a href="/co2/" title="Jetzt informieren" class="btn btn-secondary" tabindex="0"><span class="btn-text"> Jetzt informieren </span></a></div>
+        </div>
+    </div><div class="col">
+        <div class="card card-default h-100">
+            <div class="card-body "><a href="/dienstleistungen/smarte-thermostatsteuerung/" title="Smarte Thermostatsteuerung&amp;nbsp;" class="card-item-wrap-link" tabindex="-1"><img class="card-image" src="https://www.kalo.de/fileadmin/user_upload/Ilustrationen/PNG_72ppi/petrol-gruen/Smartes_Thermostat_Heizung_rechts.png" width="176" height="176" alt=""></a>
+                <div class="card-headline">
+                    <h5 class="card-title"><a href="/dienstleistungen/smarte-thermostatsteuerung/" title="Smarte Thermostatsteuerung&amp;nbsp;" class="card-item-wrap-link" tabindex="-1"> Smarte Thermostatsteuerung&nbsp; </a></h5>
+                </div>
+                <div class="card-text">
+                    <p class="text-large"><br> Eine wirksame und kostengünstige Option, um die Energiekosten und die CO<sub>2</sub>-Emissionen von Wohnimmobilien deutlich zu senken.</p>
+                </div>
+            </div>
+            <div class="card-footer"><a href="/dienstleistungen/smarte-thermostatsteuerung/" title="Mehr erfahren" class="btn btn-secondary" tabindex="-1"><span class="btn-text"> Mehr erfahren </span></a></div>
+        </div>
+    </div></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
