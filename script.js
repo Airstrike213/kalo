@@ -22,9 +22,9 @@ function generateNavLinks() {
     pdfFiles.forEach((pdf, index) => {
         const link = document.createElement('a');
         link.href = '#';
-        link.textContent = `Infoblatt ${index + 1} `;
+        link.textContent = pdf.name; // Set the text content to the name of the PDF document
         link.onclick = function() {
-            showPDF(pdf);
+            showPDF(pdf.url);
         };
         navbar.appendChild(link);
     });
