@@ -5,8 +5,8 @@ const pdfFiles = [
     'Infoblätter Kunden/KALO_Infoblatt_Kunden_Messtechnik_UVI_final_web.pdf',    
     'Infoblätter Kunden/KALO_Infoblatt_HKVO_final_web.pdf',
     'Kundenbroschüre/220830_KALO_Kundenbroschuere_Smart-Multimetering_Web.pdf',
-    'Kundenbroschüre/220830_KALO_Kundenbroschuere_Smart-Multimetering_Web.pdf',
-    'Kundenbroschüre/220830_KALO_Kundenbroschuere_Smart-Multimetering_Web.pdf',
+    'Kundenbroschüre/Fernablesbare Funkmesstechnik und UVI.pdf',
+    'Kundenbroschüre/KALO-Kurzportrait.pdf',
     'Infoblätter Kunden/KvO-GBL_Adressliste.pdf',
     // Add more PDF 
 ];
