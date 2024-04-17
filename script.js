@@ -18,16 +18,14 @@ function generateNavLinks() {
     // Clear previous links
     navbar.innerHTML = '';
 
-    // Create a link for each PDF file
-    pdfFiles.forEach((pdf, index) => {
+   pdfFiles.forEach((pdf, index) => {
         const link = document.createElement('a');
         link.href = '#';
-        link.textContent = pdf.name; // Set the text content to the name of the PDF document
+        link.textContent = `PDF ${index + 1}`;
+        link.textContent = `Infoblatt ${index + 1} `;
         link.onclick = function() {
-            showPDF(pdf.url);
+            showPDF(pdf);
         };
-        navbar.appendChild(link);
-    });
 }
 
 // Function to show PDF
